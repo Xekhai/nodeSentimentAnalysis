@@ -25,8 +25,8 @@ OPENAI_API_KEY=[Your OpenAI API Key]
 4. Replace [Your OpenAI API Key] with your actual OpenAI API Key. You can get your API Key by creating an account on the OpenAI website.
 
 5. Start the app by running the following command:
-```sql
-npm start
+```bash
+node index.js
 ```
 6. You can now make a POST request to the /sentiment endpoint with a text field in the request body to get the sentiment analysis. For example, you can use Postman or cURL to make a request like this:
 ```bash
